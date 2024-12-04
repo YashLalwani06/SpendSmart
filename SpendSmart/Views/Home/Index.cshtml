@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <!-- Welcome Section -->
+    <div class="text-center">
+        <h1 class="display-4 fw-bold text-primary">Welcome to SpendSmart</h1>
+        <p class="lead text-muted mt-3">
+            Track and manage your expenses effortlessly with SpendSmart. 
+            
+        </p>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="text-center">
+        <a asp-controller="Home" asp-action="CreateEditExpense" class="btn btn-outline-secondary btn-lg shadow">
+            <i class="bi bi-plus-circle"></i> Create New
+        </a>
+    </div>
+
+    <!-- Features Section -->
+
+<div class="container mt-5">
+    <div class="row text-center">
+        <div class="col-md-3">
+            <div class="p-3 h-100 rounded" style="background-color: #d4edda; border: 1px solid #28a745;">
+                <i class="bi bi-plus-circle display-4 text-success"></i>
+                <h3 class="mt-3">Add Expenses</h3>
+                <p>Quickly add new expenses with just a few clicks.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-3 h-100 rounded" style="background-color: #d1ecf1; border: 1px solid #17a2b8;">
+                <i class="bi bi-pencil-square display-4 text-primary"></i>
+                <h3 class="mt-3">Edit Expenses</h3>
+                <p>Modify existing expense details to keep your records accurate.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-3 h-100 rounded" style="background-color: #f8d7da; border: 1px solid #dc3545;">
+                <i class="bi bi-trash display-4 text-danger"></i>
+                <h3 class="mt-3">Delete Expenses</h3>
+                <p>Remove unwanted or incorrect expense entries effortlessly.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-3 h-100 rounded" style="background-color: #cce5ff; border: 1px solid #007bff;">
+                <i class="bi bi-search display-4 text-info"></i>
+                <h3 class="mt-3">Search Expenses</h3>
+                <p>Find specific expenses quickly using the search bar.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
